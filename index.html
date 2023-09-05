@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Job Application Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>  
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Yellowstone</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="main.html">Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Application</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <div class="mainNav">
+        <div class="container">
+            
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="appTitle">Application Form</h1>
+        <div class="accordion" id="accordionExample">    
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Personal Information
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <div class="form-group">
+                        <label for="firstName"><strong>First Name</strong></label>
+                        <input type="text" class="form-control" id="firstName" placeholder="First Name...">
+                      </div>
+                      <div class="form-group">
+                        <label for="lastName"><strong>Last Name</strong></label>
+                        <input type="text" class="form-control" id="lastName" placeholder="Last Name...">
+                      </div>
+                      <div class="form-group">
+                        <label for="lastName"><strong>Primary Phone Number</strong></label>
+                        <input type="tel" class="form-control" id="lastName" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                      </div>
+                      <div class="form-group">
+                        <label for="inputEmail"><strong>Email Address</strong></label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email Address...">
+                        <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+                      </div>
+                      <div class="form-group">
+                        <label for="streetAddress"><strong>Mailing Address</strong></label>
+                        <input type="text" class="form-control" id="streetAddress" placeholder="Mailing Address...">
+                      </div>
+                      <div class="form-group">
+                        <label for="addressCity"><strong>City</strong></label>
+                        <input type="text" class="form-control" id="addressCity" placeholder="City...">
+                      </div>
+                      <div class="form-group">
+                        <label for="streetState"><strong>State</strong></label>
+                        <input type="text" class="form-control" id="streetState" placeholder="Wisconsin">
+                      </div>
+                      <div class="form-group">
+                        <label for="streetzip"><strong>Zip Code</strong></label>
+                        <input type="text" class="form-control" id="streetzip" placeholder="53072">
+                      </div>
+                      <br>
+                      <label for="ethnicity"><strong>What is you race/ethnic origin? (Please select only one)</strong></label>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Hispanic or Latino
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            White (Not Hispanic or Latino)
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault3">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Black or African American (Not Hispanic or Latino)
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault4">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Native Hawaiian or Other Pacific Islander (Not Hispanic or Latino)
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault5">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Asian (Not Hispanic or Latino)
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault6">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            American Indian or Alaska Native (Not Hispanic or Latino)
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault7">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Two or More Races (Not Hispanic or Latino)
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault1" id="flexRadioDefault8">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            I prefer not to answer
+                        </label>
+                      </div>
+                      <br>
+                      <label for="gender"><strong>What is your gender?</strong></label>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault9">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Male
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault10">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Female
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault11">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            I prefer not to answer
+                        </label>
+                      </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Work History
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Start with most recent position.</p>
+                    <br>
+                    <h5>Employer #1</h5>
+                    <div class="form-group">
+                        <label for="employerName"><strong>Employer Name</strong></label>
+                        <input type="text" class="form-control" id="employerName" placeholder="Company Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="employerAddress"><strong>Street Address or PO Box</strong></label>
+                        <input type="text" class="form-control" id="employerAddress" placeholder="Company Address">
+                      </div>
+                      <div class="form-group">
+                        <label for="employerCity"><strong>City</strong></label>
+                        <input type="text" class="form-control" id="employerCity" placeholder="City">
+                      </div>
+                      <div class="form-group">
+                        <label for="employerState"><strong>State</strong></label>
+                        <input type="text" class="form-control" id="employerState" placeholder="State">
+                      </div>
+                      <div class="form-group">
+                        <label for="employerZip"><strong>Zip Code</strong></label>
+                        <input type="text" class="form-control" id="employerZip" placeholder="Zip Code">
+                      </div>
+                      <div class="form-group">
+                        <label for="employerPhone"><strong>Primary Phone Number</strong></label>
+                        <input type="tel" class="form-control" id="employerPhone" placeholder="123-456-7890">
+                      </div>
+                      <div class="form-group">
+                        <label for="employerTitle"><strong>Job Title</strong></label>
+                        <input type="text" class="form-control" id="employerTitle" placeholder="Job Title">
+                      </div>
+                      <div class="form-group">
+                        <label for="employerSupervisor"><strong>Supervisor Name</strong></label>
+                        <input type="text" class="form-control" id="employerSupervisor" placeholder="Supervisor Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="startDate"><strong>Start Date</strong></label>
+                        <input id="startDate" class="form-control" type="date" />
+                      </div>
+                      <div class="form-group">
+                        <label for="endDate"><strong>End Date</strong></label>
+                        <input id="endDate" class="form-control" type="date" />
+                      </div>
+                      <label for="contactEmployer"><strong>May we contact this employer?</strong></label>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault3" id="mayWeContact1">
+                        <label class="form-check-label" for="mayWeContact1">
+                            Yes
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault3" id="mayWeContact2">
+                        <label class="form-check-label" for="mayWeContact2">
+                            No
+                        </label>
+                      </div>
+                    <br>
+                    <h5>Employer #2</h5>
+                    <div class="form-group">
+                        <label for="employerName2"><strong>Employer Name</strong></label>
+                        <input type="text" class="form-control" id="employerName2" placeholder="Company Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="employerAddress2"><strong>Street Address or PO Box</strong></label>
+                        <input type="text" class="form-control" id="employerAddress2" placeholder="Company Address">
+                      </div>
+                      <div class="form-group">
+                        <label for="employerCity2"><strong>City</strong></label>
+                        <input type="text" class="form-control" id="employerCity2" placeholder="City">
+                      </div>
+                      <div class="form-group">
+                        <label for="EmployerState2"><strong>State</strong></label>
+                        <input type="text" class="form-control" id="EmployerState2" placeholder="State">
+                      </div>
+                      <div class="form-group">
+                        <label for="employerZip2"><strong>Zip Code</strong></label>
+                        <input type="text" class="form-control" id="employerZip2" placeholder="Zip Code">
+                      </div>
+                      <div class="form-group">
+                        <label for="employerPhone2"><strong>Primary Phone Number</strong></label>
+                        <input type="tel" class="form-control" id="employerPhone2" placeholder="123-456-7890">
+                      </div>
+                      <div class="form-group">
+                        <label for="employerTitle2"><strong>Job Title</strong></label>
+                        <input type="text" class="form-control" id="employerTitle2" placeholder="Job Title">
+                      </div>
+                      <div class="form-group">
+                        <label for="employerSupervisor2"><strong>Supervisor Name</strong></label>
+                        <input type="text" class="form-control" id="employerSupervisor2" placeholder="Supervisor Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="startDate2"><strong>Start Date</strong></label>
+                        <input id="startDate2" class="form-control" type="date" />
+                      </div>
+                      <div class="form-group">
+                        <label for="endDate2"><strong>End Date</strong></label>
+                        <input id="endDate2" class="form-control" type="date" />
+                      </div>
+                      <label for="contactEmployer"><strong>May we contact this employer?</strong></label>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault4" id="mayWeContact3">
+                        <label class="form-check-label" for="mayWeContact3">
+                            Yes
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault4" id="mayWeContact4">
+                        <label class="form-check-label" for="mayWeContact4">
+                            No
+                        </label>
+                      </div>  
+                      <br>
+                    <h5>Employer #3</h5>  
+                    <div class="form-group">
+                        <label for="employerName2"><strong>Employer Name</strong></label>
+                        <input type="text" class="form-control" id="employerName3" placeholder="Company Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="employerAddress2"><strong>Street Address or PO Box</strong></label>
+                        <input type="text" class="form-control" id="employerAddress3" placeholder="Company Address">
+                      </div>
+                      <div class="form-group">
+                        <label for="employerCity2"><strong>City</strong></label>
+                        <input type="text" class="form-control" id="employerCity3" placeholder="City">
+                      </div>
+                      <div class="form-group">
+                        <label for="EmployerState2"><strong>State</strong></label>
+                        <input type="text" class="form-control" id="EmployerState3" placeholder="State">
+                      </div>
+                      <div class="form-group">
+                        <label for="employerZip2"><strong>Zip Code</strong></label>
+                        <input type="text" class="form-control" id="employerZip3" placeholder="Zip Code">
+                      </div>
+                      <div class="form-group">
+                        <label for="employerPhone2"><strong>Primary Phone Number</strong></label>
+                        <input type="tel" class="form-control" id="employerPhone3" placeholder="123-456-7890">
+                      </div>
+                      <div class="form-group">
+                        <label for="employerTitle2"><strong>Job Title</strong></label>
+                        <input type="text" class="form-control" id="employerTitle3" placeholder="Job Title">
+                      </div>
+                      <div class="form-group">
+                        <label for="employerSupervisor2"><strong>Supervisor Name</strong></label>
+                        <input type="text" class="form-control" id="employerSupervisor3" placeholder="Supervisor Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="startDate3"><strong>Start Date</strong></label>
+                        <input id="startDate3" class="form-control" type="date" />
+                      </div>
+                      <div class="form-group">
+                        <label for="endDate3"><strong>End Date</strong></label>
+                        <input id="endDate3" class="form-control" type="date" />
+                      </div>
+                      <label for="contactEmployer"><strong>May we contact this employer?</strong></label>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault5" id="mayWeContact5">
+                        <label class="form-check-label" for="mayWeContact5">
+                            Yes
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault5" id="mayWeContact6">
+                        <label class="form-check-label" for="mayWeContact6">
+                            No
+                        </label>
+                      </div> 
+                </div>                
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Education
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <form>
+                        <div class="form-group">
+                          <label for="exampleFormControlSelect1"><strong>Highest level of Education Completed</strong></label>
+                          <select class="form-control" id="exampleFormControlSelect1">
+                            <option> </option>
+                            <option>Less than High School</option>
+                            <option>High School/GED</option>
+                            <option>Some College</option>
+                            <option>2-year Degree (Associate)</option>
+                            <option>4-year Degree (Bachelor's) </option>
+                            <option>Masters Degree</option>
+                            <option>Doctoral Degree</option>
+                            <option>Professional Degree</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1"><strong>Name of School</strong></label>
+                            <input type="text" class="form-control" id="schoolName" placeholder="Name of School">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlSelect2"><strong>Major or Field of Study</strong></label>
+                            <select class="form-control" id="exampleFormControlSelect2">
+                              <option> </option>
+                              <option>Art</option>
+                              <option>Anthropology and Sociology</option>
+                              <option>Biology</option>
+                              <option>Business and Management</option>
+                              <option>Communications</option>
+                              <option>Computer Science</option>
+                              <option>Criminal Justice</option>
+                              <option>Economics</option>
+                              <option>Education</option>
+                              <option>Engineering</option>
+                              <option>English</option>
+                              <option>Environmental Science</option>
+                              <option>Finance and Accounting</option>
+                              <option>Health Professions</option>
+                              <option>History</option>
+                              <option>Kinesiology and Physical Therapy</option>
+                              <option>Math</option>
+                              <option>Nursing</option>
+                              <option>Political Science</option>
+                              <option>Psychology</option>
+                              <option>Other</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleFormControlInput1"><strong>Years Attended</strong></label>
+                            <input type="text" class="form-control" id="schoolName" placeholder="2008-2012">
+                          </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlTextarea1">Additional Schooling or Skills</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                      </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h6 class="termsHead">READ CAREFULLY BEFORE SUBMITTING THIS APPLICATION</h6>
+          <p>By submitting this form, I declare my answers to the questions on this application and any attachment, i.e. resume, etc., are true and accurate. Attachments CANNOT be sent with this online application. You must send attachments to us by e-mail or fax. FAX:(307) 344-5441 E-mail: info@yellowstonejobs.com. I authorize Xanterra Parks and Resorts and any accredited public or private investigative agency or individual conducting my background investigation to obtain and release any information relating to my background from individuals, schools, employers, criminal justice agencies, governmental agencies, financial institutions, credit bureaus, licensing agencies, or other sources of information in accordance with applicable laws for purposes of making a determination of my suitability or eligibility for employment. If employed, I understand that I must abide by the company's rules and regulations. I hereby consent to a drug screen as a condition of employment, if required. I understand this document, any offer of employment or any other employment related information does not constitute an employment contract. I understand employment is not a specified term and is at the mutual consent of the employee and company. Accordingly, either the employee or the company can terminate employment at will, with or without cause, at any time.</p>
+
+          <h6 class="termsHead">---AGREEMENT TO TERMS---</h6>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                <strong>If you have read, understand and agree to the above information, please check this box</strong> 
+            </label>
+          </div>
+          </div>
+          <div style="text-align:center;">
+            <form action="#">
+                <input class="inputButton" type="submit" value="Submit Application" />
+            </form>
+          </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

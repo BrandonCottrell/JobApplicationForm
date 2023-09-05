@@ -1,0 +1,93 @@
+body {
+    background-color: #A4A863;
+
+}
+nav.navbar {
+    padding: 20px;
+}
+h2, h1 {
+    text-align: center;
+}
+.container {
+    background-color: #D3CDB6;
+}
+
+.accordion {
+    background-color: #D3CDB6;
+}
+
+.accordion-item {
+    background-color: #D3CDB6;
+
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: rgb(237, 214, 129);
+    font-weight: bold;
+    color: #293C5A;
+}
+
+.accordion-button {
+    background-color: rgb(237, 214, 129);
+    font-weight: bold;
+    color: #293C5A;
+}
+
+.accordion-button:hover {
+    background-color: rgb(201, 179, 99);
+}
+
+.accordion-button:focus {
+    background-color: rgb(201, 179, 99);
+    font-weight: bold;
+    color: #293C5A;
+
+}
+
+.parkInfo {
+    text-align: center;
+}
+
+.mainNav {
+    background-color: #293C5A;
+    color: white;
+}
+
+.navbar {
+    background-color: #293C5A;
+    color: white;
+}
+
+a.nav-link {
+    color: white;
+}
+
+a.navbar-brand {
+    color: white;
+}
+
+.appTitle {
+    padding: 100px;
+    color: #293C5A;
+}
+
+.termsHead {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.inputButton  {
+    background-color: #293C5A;
+    color: white;
+    padding: 15px;
+    margin: 30px;
+    
+}
+
+.inputButton:hover  {
+    background-color: #36578b;
+    color: white;
+    padding: 15px;
+    margin: 30px;
+}
+
